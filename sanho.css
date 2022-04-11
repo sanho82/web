@@ -5,10 +5,10 @@ img {width=600px;
 }
 
 body {width: 1000px;
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200&family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 h1 {padding-top: 20px;
     font-size: 50px;
@@ -36,9 +36,11 @@ a:link, a:visited {color: black;
 a:hover {color: rgb(13, 63, 16);
 }
 
-.list {font-size: 25px;
+.list {font-size: 20px;
         width: 180px;
         margin-bottom: 30px;
+    
+    
         
 }
 
@@ -46,8 +48,25 @@ a:hover {color: rgb(13, 63, 16);
         grid-template-columns: 250px 1fr;}
 
 p {width: 500px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;}
 
 .school {background-color: rgb(173, 228, 209);
         }
+
+iframe {width: 400px;
+        height: 300px;
+}
+
+table {border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th, td {border: 1px solid black;
+        padding: 6px 3px;
+}
+
+.homepage {text-decoration: underline;
+
+}
